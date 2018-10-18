@@ -1,0 +1,16 @@
+.image-credit-container {
+    position: absolute;
+    top: 28%;
+    right: 1%;
+}
+
+.image-credit-container .image-credit {
+    opacity: 0.54;
+    transform: rotate(90deg);
+    color: #6E7A88;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    display: block;
+}

@@ -1,0 +1,52 @@
+.image-slider-container {
+    width: 42%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-color: green;
+}
+
+.image-slider-container .randomise {
+    width: 241px;
+    height: 64px;
+    color: #FFFFFF;
+    background-color: #02355F;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    transform: translateX(190%) translateY(-50%); /* TODO - Fix X-position */
+    cursor: pointer;
+}
+
+.image-slider-container #image1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.image-slider-container #image2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    top: -100%;
+}
+
+.center {
+    top: 0;
+}
+
+.bottom {
+    top: 100%;
+}
+
+.transition {
+    transition: top 2s;
+}

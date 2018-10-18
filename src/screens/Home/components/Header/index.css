@@ -1,0 +1,38 @@
+.project-header {
+    width: 50%;
+    height: 50px;
+    background-color: #E7E7E7;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom: #CFD2D6 solid 1px;
+    box-sizing: border-box;
+}
+
+.project-header .author-name {
+    height: 64px;
+    width: 464px;
+    opacity: 0.32;
+    color: #6E7A88;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1.89px;
+    line-height: 47px;
+    left: 50px;
+    position: absolute;
+}
+
+.project-header .author-projects {
+    height: 64px;
+    width: 277px;
+    color: #F63924;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1.89px;
+    line-height: 47px;
+    text-align: right;
+    right: 50px;
+    position: absolute;
+}

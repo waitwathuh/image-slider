@@ -1,0 +1,23 @@
+.text-slider-container {
+    width: 40%;
+    height: 70%;
+    background-color: #EFEFEF;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border-right: #CFD2D6 solid 1px;
+    box-sizing: border-box;
+}
+
+.text-slider-container .previous-container {
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.text-slider-container .previous-container span {
+    color: #02355F;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
